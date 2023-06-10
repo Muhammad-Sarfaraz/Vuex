@@ -47,7 +47,7 @@ export default {
     },
     methods:{
       jokeData() {
-       this.$store.dispatch("jokes/getData");
+       this.$store.dispatch("jokes/getData"); 
     },
 
     updateTitle() {
